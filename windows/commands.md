@@ -22,7 +22,7 @@ list smb shares:
 `smbclient -L SERVER_IP -U <user>`
 
 connect to share:
-`mbclient '\\SERVER_IP\Company Data' -U <user>`
+`smbclient '\\SERVER_IP\Company Data' -U <user>`
 
 
 
