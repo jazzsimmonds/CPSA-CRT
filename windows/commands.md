@@ -4,3 +4,6 @@ find information about the operating system:
 
 explore the file system: 
 `dir c:\ /a`
+
+walk through all the files in the C drive, one screen at a time:
+`tree c:\ /f | more`
