@@ -16,3 +16,13 @@ grant a user full control over a directory:
 
 remove permissions for a user:
 `icacls c:\users /remove <user>`
+
+
+list smb shares:
+`smbclient -L SERVER_IP -U <user>`
+
+connect to share:
+`mbclient '\\SERVER_IP\Company Data' -U <user>`
+
+
+
