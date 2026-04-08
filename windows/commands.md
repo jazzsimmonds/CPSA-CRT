@@ -13,3 +13,6 @@ list out the NTFS permissions on a specific directory:
 
 grant a user full control over a directory:
 `icacls c:\users /grant <user>:f`
+
+remove permissions for a user:
+`icacls c:\users /remove <user>`
